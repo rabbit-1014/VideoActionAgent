@@ -1,0 +1,2353 @@
+{
+  "files": [
+    {
+      "relativepath": ".gitignore",
+      "sha256": "0675887d43e63445f843c1dd3a8e0d63ddb5510b2c27d1e347dffa597aebcee7",
+      "source_group": "RELEASE"
+    },
+    {
+      "relativepath": "APP/Start-Purpose.ps1",
+      "sha256": "61897bb8d7565497eeea0f273c0b1b7fbeeb58fb6959846e90b9600e3f227fe7",
+      "source_group": "APP"
+    },
+    {
+      "relativepath": "APP/addressed_amendments.py",
+      "sha256": "5c1db751b2d5a72b1794e1a9ba5b92728d1c9d3974f68e90648505fb7f732ce9",
+      "source_group": "APP"
+    },
+    {
+      "relativepath": "APP/codex_exec_provider.py",
+      "sha256": "7d6ddb5685cd27e3379d34e7b9c00143931252454842277f11955b83c92cb858",
+      "source_group": "APP"
+    },
+    {
+      "relativepath": "APP/codex_writer_instructions.txt",
+      "sha256": "59b9fe3210c25ab24ea5455c8f90f9017c55023ca09b357e92f56a3dc0ffd0b3",
+      "source_group": "APP"
+    },
+    {
+      "relativepath": "APP/configure_codex_writer.py",
+      "sha256": "9358e5d5c69fddf5e16d6e5f21d64a94082a3ec9ad29ef9a01c86a9528070f82",
+      "source_group": "APP"
+    },
+    {
+      "relativepath": "APP/deepseek_native_provider.py",
+      "sha256": "a21cde6517f0f90b28c54d57738f576a8032ee26743ee3d5a0dc926dcaae86ce",
+      "source_group": "APP"
+    },
+    {
+      "relativepath": "APP/diagram_tool.py",
+      "sha256": "2539a2d55e1f986c07fe07c9f9254c08bc69acfe816aefae2e511fa8ee54c20e",
+      "source_group": "APP"
+    },
+    {
+      "relativepath": "APP/explanation_amendments.py",
+      "sha256": "fff9cabc48bb9529d86c3fd33e907c5992d88e174cc3d5add48da2db9834ad1d",
+      "source_group": "APP"
+    },
+    {
+      "relativepath": "APP/explanation_tool.py",
+      "sha256": "19c31ff7de1a72c9412246aeca53e90b44e27a47fb6289c0a560506f23fe4380",
+      "source_group": "APP"
+    },
+    {
+      "relativepath": "APP/followup_context.py",
+      "sha256": "c27de90810e4c248c1444fbe8dc75f7463a4dafebab72ef5d81f4cdbbdba759e",
+      "source_group": "APP"
+    },
+    {
+      "relativepath": "APP/goal_native.py",
+      "sha256": "06aca2a488da201a66715b5739317ead863e3c5e5a3e1a267c2052d7eedb266a",
+      "source_group": "APP"
+    },
+    {
+      "relativepath": "APP/goal_strategy.py",
+      "sha256": "12b4b49ee54781d598139000aed5fce45c5e4354642a52df28b0304139984fcc",
+      "source_group": "APP"
+    },
+    {
+      "relativepath": "APP/image_filter.py",
+      "sha256": "41517c8d32afeca874eeccee42f7bedf74981b4040ba5d9a8e3ac80eec3fca49",
+      "source_group": "APP"
+    },
+    {
+      "relativepath": "APP/method_layout.py",
+      "sha256": "ccb7d1ef9e069abe01bf96113f4bf5cd1408eb500f50c7020130fa18963e46df",
+      "source_group": "APP"
+    },
+    {
+      "relativepath": "APP/model_material.py",
+      "sha256": "44c4a589addc51f797618ead240354d9433ad46eabf0a89d2e947c99a92a2b75",
+      "source_group": "APP"
+    },
+    {
+      "relativepath": "APP/native_amendment.py",
+      "sha256": "588190478f5e3cc8902165a8d320107f0f4f11dacc6e3612871b8b03ed8503f6",
+      "source_group": "APP"
+    },
+    {
+      "relativepath": "APP/native_purposes.py",
+      "sha256": "bdfe3076e77dc4873c306f6caf494a9cfd1cec70f591a386dc98e3f2ea2a2706",
+      "source_group": "APP"
+    },
+    {
+      "relativepath": "APP/native_scope.py",
+      "sha256": "b19e07d4e9b2bd6b403c2a176be8c54166639e0401ee6f48c33cf1396797895f",
+      "source_group": "APP"
+    },
+    {
+      "relativepath": "APP/purpose_app.py",
+      "sha256": "5f312db5dd44a1f2453ba6f4b45262186582da128947ab47230ebc337d683450",
+      "source_group": "APP"
+    },
+    {
+      "relativepath": "APP/purpose_outputs.py",
+      "sha256": "3d43a0c68753266a651b6619e693966eb3542b5c0e766a775b05c2dd187cfa90",
+      "source_group": "APP"
+    },
+    {
+      "relativepath": "APP/reused_native.py",
+      "sha256": "e9cfd428bc1e04a372b9c5b9f22065bf4350b5167ca3133448e950db58bb2b69",
+      "source_group": "APP"
+    },
+    {
+      "relativepath": "APP/revision_visual_context.py",
+      "sha256": "e4551ff93f1d30a637416e08bf7be7304fa876d5dfd50668c355a62a5022990d",
+      "source_group": "APP"
+    },
+    {
+      "relativepath": "APP/saved_region_analysis.py",
+      "sha256": "3f779890d878485c0f28ae4652ad3c8c7208cf5e3ee2530146388cca09f76f6b",
+      "source_group": "APP"
+    },
+    {
+      "relativepath": "APP/saved_region_transport.py",
+      "sha256": "f2caedb637b3267274a089fa8d3db8f9ec2b503d3ef5c5b996df04f1c8463fe7",
+      "source_group": "APP"
+    },
+    {
+      "relativepath": "APP/saved_visuals.py",
+      "sha256": "0643a7952e86c75c9250d4845c668769e187dd9bf7eac7b0995804f134f44a7c",
+      "source_group": "APP"
+    },
+    {
+      "relativepath": "APP/seed_sources.py",
+      "sha256": "7e5dc8ba6c2d431fa74619f3c350038a430d3c1176a9d078f00d4f74a80df9e9",
+      "source_group": "APP"
+    },
+    {
+      "relativepath": "APP/skills/source-review/SKILL.md",
+      "sha256": "5ddf6b761a04b910816dc50b5d31d701789f25ecbd227605f0c7a22f839d52ef",
+      "source_group": "APP"
+    },
+    {
+      "relativepath": "APP/skills/task-solution/SKILL.md",
+      "sha256": "f052a9b14563da076cc9341c6ac7e28ff2984fc1177a17aca968e0cb5b2e78e5",
+      "source_group": "APP"
+    },
+    {
+      "relativepath": "APP/source_literals.py",
+      "sha256": "b5aec8415e17e6aed430446d66914fbca476a5707a7d4e025bb16350534c6200",
+      "source_group": "APP"
+    },
+    {
+      "relativepath": "APP/source_requirements.py",
+      "sha256": "8448a1c54b66bffe36a53da7eb3b69284a1d9be524ce0e1e72448a5d5e1a1322",
+      "source_group": "APP"
+    },
+    {
+      "relativepath": "APP/source_review.py",
+      "sha256": "68f7a619b656add369c823a87c37bce53385dda6b600e944d1cbd69ca259325d",
+      "source_group": "APP"
+    },
+    {
+      "relativepath": "APP/source_review_patches.py",
+      "sha256": "a44cc3252b5e6a653f205c13c99f562e498909fcc27a5468414ecbabfa538a9d",
+      "source_group": "APP"
+    },
+    {
+      "relativepath": "APP/task_editor.py",
+      "sha256": "93a64d2c579df0605cf134736c81bee9ef69396b94fb9422318358aa75c8ba06",
+      "source_group": "APP"
+    },
+    {
+      "relativepath": "APP/test_addressed_amendments.py",
+      "sha256": "00ac4907efc0f988244565c4e9628f6d42cfaa1b0747ef340cda126d7c790612",
+      "source_group": "APP"
+    },
+    {
+      "relativepath": "APP/test_call_accounting.py",
+      "sha256": "1b96e9e35b2e42fd006695d7ee20065539b7a04b3196ad5407a22a88e899e2e6",
+      "source_group": "APP"
+    },
+    {
+      "relativepath": "APP/test_codex_exec_provider.py",
+      "sha256": "366b340f0b8fe343187e0de3654000ad5a7a530db5d6fbbe99bef8c745517c3a",
+      "source_group": "APP"
+    },
+    {
+      "relativepath": "APP/test_codex_writer_selection.py",
+      "sha256": "1aa82065d433863d5d3960705d4cbb2f92f3e2444d859eacc52132fff660a933",
+      "source_group": "APP"
+    },
+    {
+      "relativepath": "APP/test_deepseek_native_provider.py",
+      "sha256": "b486bd3622563e8fb4bb7f6f2e28147f69d673ad7db9a28155ff120a57890841",
+      "source_group": "APP"
+    },
+    {
+      "relativepath": "APP/test_explanation_amendments.py",
+      "sha256": "748906e1babcc7bebcc1fdc58b639299f86329b0571b4cdd07090985b107d244",
+      "source_group": "APP"
+    },
+    {
+      "relativepath": "APP/test_explanation_app.py",
+      "sha256": "2802ea843c2bbb29a309c9dab7572a3e2951a86652585b001cab2d1f1379d9a2",
+      "source_group": "APP"
+    },
+    {
+      "relativepath": "APP/test_explanation_integration.py",
+      "sha256": "2015d6e13460e947903b67c5566e9493c357b56062f2b6834b14db32ba0e782f",
+      "source_group": "APP"
+    },
+    {
+      "relativepath": "APP/test_explanation_lifecycle_app.py",
+      "sha256": "c0d8fb7188643cd7131f9ebe4276303be9d562f6b9aa5aeae2d8d60b521a06d0",
+      "source_group": "APP"
+    },
+    {
+      "relativepath": "APP/test_explanation_source_review.py",
+      "sha256": "2ee549e023a3ac15f9dfd7fa270f7907ad44a9693cf7fe555d79cc1ad7432912",
+      "source_group": "APP"
+    },
+    {
+      "relativepath": "APP/test_explanation_tool.py",
+      "sha256": "cc9facb237fbf6b0a16328351071560d5792aa8d18ce3d8b6199bfc7f12a03bc",
+      "source_group": "APP"
+    },
+    {
+      "relativepath": "APP/test_followup_context.py",
+      "sha256": "cd8db161c4d5356f2a673a1272925d67eeaefab39ffdebfaf57bca21a1668467",
+      "source_group": "APP"
+    },
+    {
+      "relativepath": "APP/test_goal_admission.py",
+      "sha256": "94fb622c966c9f0eeb5adb54c2942a42c634e8dabca940aec85b17bf2837d6a3",
+      "source_group": "APP"
+    },
+    {
+      "relativepath": "APP/test_goal_envelope.py",
+      "sha256": "8cf533e902b436cc103738c48257c97a465c597a062c353447cc9e28f1f16b19",
+      "source_group": "APP"
+    },
+    {
+      "relativepath": "APP/test_model_material.py",
+      "sha256": "30183e191be92bb66c9c0f75e59264b3543fa9ce2db78e8fb70e9ffe0905ed06",
+      "source_group": "APP"
+    },
+    {
+      "relativepath": "APP/test_native_scope.py",
+      "sha256": "6bfd962cb26773909412d7b9d5f6482250f4fae3a1830e641928dff78956d83f",
+      "source_group": "APP"
+    },
+    {
+      "relativepath": "APP/test_purpose_outputs.py",
+      "sha256": "a5011fe5883415564b9cf927ea3faeb7a4c4a5be724c5dc49f49b5071605a554",
+      "source_group": "APP"
+    },
+    {
+      "relativepath": "APP/test_reused_regions.py",
+      "sha256": "c464a4353daaeda1a5de66ed63cf3b82938527897e6051c7ee545fc3fc4b056b",
+      "source_group": "APP"
+    },
+    {
+      "relativepath": "APP/test_revision_visual_context.py",
+      "sha256": "d1fa5ae26b4e2e549362e237b49bd48d794409ac61f9d766321a6bd602a38443",
+      "source_group": "APP"
+    },
+    {
+      "relativepath": "APP/test_saved_region_analysis.py",
+      "sha256": "f73bb853440ab034d4c42cff732020acc8ae2e0ef91e4d1d55c5898d72688725",
+      "source_group": "APP"
+    },
+    {
+      "relativepath": "APP/test_saved_region_transport.py",
+      "sha256": "aae725a2da6393a8cba1c1ad0f5aef5508528d773e44a2fad8982a9c3af3037d",
+      "source_group": "APP"
+    },
+    {
+      "relativepath": "APP/test_saved_visuals.py",
+      "sha256": "835fad2ba67ac86b95524b974b016009cd49606729487dbe23a5fb79f41cc542",
+      "source_group": "APP"
+    },
+    {
+      "relativepath": "APP/test_source_cache_wiring.py",
+      "sha256": "4ac0b4337e9721db8d19ab284d0824a7f56132dc00d4e3760d3756525684fe52",
+      "source_group": "APP"
+    },
+    {
+      "relativepath": "APP/test_source_review_patches.py",
+      "sha256": "0f98aaae25a6a91ceb15abae2701e93c824a25ab521aba9093b3c82b34b50cdd",
+      "source_group": "APP"
+    },
+    {
+      "relativepath": "APP/test_task_editor.py",
+      "sha256": "69291c1218b22fc57669723dcafc24ebbebea44c626c076cac3f81871e690320",
+      "source_group": "APP"
+    },
+    {
+      "relativepath": "APP/text_amendments.py",
+      "sha256": "daa7b28a86d01c8a75fb2bba406015fdb02fa768857fae4dde5f3149e64f8d10",
+      "source_group": "APP"
+    },
+    {
+      "relativepath": "APP/typed_outputs.py",
+      "sha256": "dfd60907429804e17a3777db8dce8b6721c6ad8b1a5cc02ce0514c87fde28a66",
+      "source_group": "APP"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/index.html",
+      "sha256": "e69755d38e3ada4c37710f8199c00058c5c34f9c67d77ede12f0f9eae9597096",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/package-lock.json",
+      "sha256": "149a9ceddf6d998e24d73c92c60075f16dfa40aff16d5c50af6bcba1a9262bb8",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/package.json",
+      "sha256": "fcddb308598a9ca69b7abbeff0340959bd4b588ffb31640af331378cd01ed864",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/pnpm-lock.yaml",
+      "sha256": "1a17e863ab90fc4d74cd52b2a00b1e100bc52a6db1710f47bfde990774c5482c",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/public/icon.svg",
+      "sha256": "b15b8bed0ff438e8548d779f7925f7915aa3136ef67df2b5d952e99daaaec091",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/public/placeholder.png",
+      "sha256": "194ad74427e00fb6e2cce5b579c4fbdb96e09c41b9e1a6a19f6af809557c3d14",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/public/preview_1.png",
+      "sha256": "0085833e86697f35df64f76b69ef94222804e75527846216e68e14af56ad1881",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/public/vite.svg",
+      "sha256": "4a748afd443918bb16591c834c401dae33e87861ab5dbad0811c3a3b4a9214fb",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/purpose.html",
+      "sha256": "c5a4cd20cc49e87aea926df37d7fb2dbd0902f50388eda67c2984d4f0a8fd33f",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/App.css",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/App.tsx",
+      "sha256": "75657dd6a710e177a9941857345e99393c70847e21beacf5684cfd1055bfb494",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/Bridge.tsx",
+      "sha256": "d340c06cf0cebbe433926b3bb18b1eb014db8f8bb1f40bc1abba87a8d113f2ad",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/ExplanationView.css",
+      "sha256": "1aa72daa7619797917406d82a6ea51bb6cec816fa9bf1acbdbb2b5ecff99056d",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/ExplanationView.tsx",
+      "sha256": "9c0d138a0bf2143b54ecd2e82bcf24e952cf18e0879237420f08942274a9b109",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/IllustratedBridge.tsx",
+      "sha256": "52019fa6dbbccbc7fe8c36323fe2fe1669dfd8246c0b1d111964f82051cfc784",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/LinkBridge.tsx",
+      "sha256": "6f05dccf8a1817f80e4a6086b1124a6d2625bab81cb862fbc13ed2e94388c81c",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/PurposeBridge.css",
+      "sha256": "d0d2ac0ce54307ef9fffde7a35088e3ee36987585cbd69a53deb2a9e2ce3a7b5",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/PurposeBridge.tsx",
+      "sha256": "665f7267bb15c4863df85ac3ea736124fc3a23902a4856c5fcbc1fdbdc663942",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/PurposeConversation.tsx",
+      "sha256": "a61727d13a8d88c7f15cb625268afa9073d665fc0aec0e6d58dcb6cb460e86af",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/SavedSourcePicker.tsx",
+      "sha256": "928531de9960b3e70faf0588e8a44f2e91d0e94361801e832ddf5b48707829dd",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/SourceReference.tsx",
+      "sha256": "4103b878f99d40e84929e912d6d0003d6c85e0a3d1f9d596e6e46419074776c0",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/VideoNotesBridge.tsx",
+      "sha256": "37f090d5d1c22ebf9bde04716f1ed0fff29ad78815239dae297b36f162eb6203",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/assets/Lottie/404.json",
+      "sha256": "87a48080ac4f569f8f546c40e08ee39819c50a44713a6a299226335e571aac58",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/assets/Lottie/Error.json",
+      "sha256": "29d030409004a95620c15339a8edf1d41177aaf92e08e697492afe2a17ed989d",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/assets/Lottie/download.json",
+      "sha256": "0e25e96b84439d974c35c3f2f7da2ba232b1b68def469a84d6aa31459084ff62",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/assets/Lottie/idle.json",
+      "sha256": "154ee033cba6d95cd4a8e0ff8e43eab2a1b7573f43630d3aebd6d71d1c401c23",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/assets/Lottie/loading.json",
+      "sha256": "71e5930da7ef75255941facbf2c0f3425f8609090ad4e3dc49b0c6651a3cb324",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/assets/customAI.png",
+      "sha256": "50766f8fd580d6d09c8f0f14066ab56ed3f00929a8b65b5ec97c70b252da440a",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/assets/icon.svg",
+      "sha256": "b15b8bed0ff438e8548d779f7925f7915aa3136ef67df2b5d952e99daaaec091",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/components/BackendHealth/BackendHealthIndicator.tsx",
+      "sha256": "6c3872bb92cd2d3c9f93064ab6ee0c83368935ea5823145a59b1a58f4f8271bb",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/components/BackendHealth/BackendLogPanel.tsx",
+      "sha256": "2edd9aee1cd0c6f994c019352eeb8f11c2ffe34916dc1edd5af66d88688a49f4",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/components/BackendHealth/useBackendEvents.ts",
+      "sha256": "6db760851e1cf172f0a7b0de2556e71b8751a05c847bde737735c185f8914471",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/components/BackendInitDialog.tsx",
+      "sha256": "4eeacd036afe6a1cdae4f0cb46d2d58e05cbdc3785de5ca6849838b3d9dd5402",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/components/Form/DownloaderForm/Form.tsx",
+      "sha256": "98e7e6e66594da9c9c11d6b9f9f81bd7d01296b91c6b8ab78d0e3b92000cbda1",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/components/Form/DownloaderForm/Options.tsx",
+      "sha256": "b24d05e7f9f450688f3109dcf3361b8c2b131e1d47f10c43ca8816867592842f",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/components/Form/DownloaderForm/ProxyConfig.tsx",
+      "sha256": "0b385a5eae8e95c72a07a982e82c7264e5185fcb8da75e7b46ce563ec13a1f3d",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/components/Form/DownloaderForm/index.module.css",
+      "sha256": "cc942a99ab4e9e742c0515da4953c26802a842700d69ef25c5898ad879e77e86",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/components/Form/DownloaderForm/providerCard.tsx",
+      "sha256": "a3d90ca7831e9986c0994a61ef361a889c25769a5b672624c24f17458af4952c",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/components/Form/modelForm/Form.tsx",
+      "sha256": "adb0febd658d88ab3f9d04996508d76969e57b00ea647e3e0bb9c32d4468e72e",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/components/Form/modelForm/Icons/iconMap.ts",
+      "sha256": "9c4325c0667da517b88e0dadef0cbfdb122de2d67695c144f4a7db32c29ad520",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/components/Form/modelForm/Icons/index.tsx",
+      "sha256": "1e2432fb1190ea3564d33513792a7eecfc09ed8cd2edde45af7b6562c2470aa4",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/components/Form/modelForm/ModelSelector.tsx",
+      "sha256": "77c02d3bdd59fcaf8e28d90c7a7362522dc8187a91ca8cbbee4fff5bdc7b8496",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/components/Form/modelForm/Provider.tsx",
+      "sha256": "e13dca66182592bf77404685eb7d2c3abadcc9ee5f9797bc9549a8583ec690d3",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/components/Form/modelForm/components/index.module.css",
+      "sha256": "cc942a99ab4e9e742c0515da4953c26802a842700d69ef25c5898ad879e77e86",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/components/Form/modelForm/components/providerCard.tsx",
+      "sha256": "98d0a7d9e6911c7a71ebcba3f7e1da93590ee7bc56da4fd96bc45e8f9cf02db8",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/components/Icons/iconMap.ts",
+      "sha256": "9c4325c0667da517b88e0dadef0cbfdb122de2d67695c144f4a7db32c29ad520",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/components/Icons/index.tsx",
+      "sha256": "20d393ffce54b7a58b149ca883b492bf2035799e72198896a9a7c0a4235921cf",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/components/Icons/platform.tsx",
+      "sha256": "30c4c5915cabec938cf5aa88f528a78bbc4833a2fb999e9ed2ee842d48f82990",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/components/LazyImage.tsx",
+      "sha256": "b52b4ae06c3a39cdf2ab52e3dda6f13d23928bf457704f323d9bd029a3fcb47c",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/components/Lottie/404.tsx",
+      "sha256": "fb5faa2def4d8363f4262b7ab9192712b74de12e06498e1c4cb6d5ea900136ae",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/components/Lottie/Idle.tsx",
+      "sha256": "e5a2b23a08a4f41684787518db659ccccd92cec8ade8bef7d0e14d78caf4dba7",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/components/Lottie/Loading.tsx",
+      "sha256": "88db0a104da9795690858413e36d200a4ad1c6505c4e8ae2bbbc0c31eb56cffd",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/components/Lottie/download.tsx",
+      "sha256": "7449989b228898afe1f46622829b1248ffb365c80c5bcded6f928b2731396adc",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/components/Lottie/error.tsx",
+      "sha256": "6b474a64a8cdf9969afd2a8dd579650b4a625f8e36534f568480237b0a00fda2",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/components/SystemDiagnostic/StartupBanner.tsx",
+      "sha256": "ea2c024fac668315b0c3752f0c2f56a39fdf95c0b167eafd4d8a33278ed4a8c8",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/components/ui/alert.tsx",
+      "sha256": "3a01519e880618957278d460933bd5edb0d9fe65ea435c7d0eb78a2dab26700e",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/components/ui/badge.tsx",
+      "sha256": "60e528efe72c8023d36c117add0a00677f95aef62be6545fde9ccf11ea4320fd",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/components/ui/button.tsx",
+      "sha256": "976f04f7927cb57e37b3b23084e3e4a36b2ae9cb3846e9a779d50451b06287eb",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/components/ui/card.tsx",
+      "sha256": "b223cf8a73862f23cb0095d32d9fac136a2726ea820653372142681cb687be47",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/components/ui/checkbox.tsx",
+      "sha256": "202eb5dfacdc8b1aaefc8f3f50523bf4f515a853cb93a3ed8e83f7bb8e10a266",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/components/ui/dialog.tsx",
+      "sha256": "21a25bb2599e5bb7314196cf77721e439166da0774ac8e5aaed79061b354e074",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/components/ui/form.tsx",
+      "sha256": "2b20784905c40e568b91ea38bdb85853ef180fbd8eab45b3ef57c848d9189f4d",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/components/ui/input.tsx",
+      "sha256": "b9b10fa5ad965cf7cf8926fa21a209432b6edd9a1f2278b5300067120480122f",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/components/ui/label.tsx",
+      "sha256": "9cc5078d9db0780c64feb68efdb27ee3a09286f955bb64833da6127434962ac5",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/components/ui/resizable.tsx",
+      "sha256": "bfd4437418fba90525473cc0bc62a9624e196c370e2839004cd7fc011cf7485e",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/components/ui/scroll-area.tsx",
+      "sha256": "297eba4199344f7ec7dbc65edab6647a82179456c2270aa681a7cd744d192604",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/components/ui/select.tsx",
+      "sha256": "8b0e189257a66538ac37188574cf164bd540f9365fa403ea60722a3e9e771d85",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/components/ui/sonner.tsx",
+      "sha256": "211d3a9bd20425800ed5e5774d5996130ff5b090714f4f6999352ab31dbd4d27",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/components/ui/switch.tsx",
+      "sha256": "69b9830ffd669e153597f2149f2a510562e400af9aeb9423b9457f555488904a",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/components/ui/tabs.tsx",
+      "sha256": "afe2696a26188419b430f28c06f841089889559078aaca455fee53ebd66db35f",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/components/ui/textarea.tsx",
+      "sha256": "2944aed195e62d24b13b8e26e1a5534ff97c4027ce0e8331c62c84695ac083bd",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/components/ui/tooltip.tsx",
+      "sha256": "6c26d5155967e92cc852872ff74db8ad8de28d5a371d1a960bfe940348ec54c7",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/constant/note.ts",
+      "sha256": "8b93e753650d33a788270544f47386d15228e8a2d8dcc239111fab08ce7d8d51",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/explanationProjection.test.mjs",
+      "sha256": "f4ac64f10ac3627529d2f030d37320214ecd9d6e0fbedb58a66928c92111bf6d",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/explanationProjection.ts",
+      "sha256": "8c1001e00de1226cfeabea8976d90f1d79eab81b6217e960a7fc4b2181e609cf",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/hooks/useCheckBackend.ts",
+      "sha256": "6be8100aa6ed62b1fbb30e03a772fe36e629fcb9053977b6062ccc8bd62b1b81",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/hooks/useTaskPolling.ts",
+      "sha256": "3e4b9f282742cf958476091b0971efe49589d867d38d426947fc92be1721e4f0",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/index.css",
+      "sha256": "daf81f71b504f66a7ad6c00924358707932581a0dbec3000635c7a6327d05531",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/indexa.css",
+      "sha256": "4fcb41a7df17cc985b9727165b5afb34cc6ba32ce20a76f6925e3b08e1eea70a",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/layouts/HomeLayout.tsx",
+      "sha256": "2b8256fd151006e1f518b9870679a83529142838b8ae2790518cc43221bd0209",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/layouts/RootLayout.tsx",
+      "sha256": "3ed74d8ae55cbd5d29b219c3f674a5b1f7be5d15f05d80bd75dc6d3a91649ae5",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/layouts/SettingLayout.tsx",
+      "sha256": "13868835bfa12c31a7ee6af42e724023de78f52428d84a168e9de15ca5eb9a5a",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/lib/markmap.ts",
+      "sha256": "ae9705a4e34dbb7c03cbc0623d6d0de5e8fb86f96f0fb1835048f7ab7f2e9b73",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/lib/utils.ts",
+      "sha256": "76db4720b8835194b5bb3c6e4f1049914e39a24121dee582eca62039c8c16dfb",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/main.tsx",
+      "sha256": "02f66420479a2fe63735475680a16573d309af4c648e61329bef88366390ede8",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/pages/HomePage/Home.tsx",
+      "sha256": "ec49152589d330abc46c4f21e2219d7a045face086b463be018395da6f5a5ce2",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/pages/HomePage/components/ChatPanel.tsx",
+      "sha256": "3137356590529431e75e7f093d88de9234621836a7d5a1b7e4c3f155f375236f",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/pages/HomePage/components/ChatPanelView.tsx",
+      "sha256": "e009d15e0bbf767c08862f8dfdef86da247c2cd4e8daade83894c2d1e1bab422",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/pages/HomePage/components/History.tsx",
+      "sha256": "84e35a11dab86df2fee79167a437fc0a06569b902fc0e4f3b2bc4e32bc5e5377",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/pages/HomePage/components/MarkdownHeader.tsx",
+      "sha256": "a7bab64480fe22ea9073b84b6fb9053926c5d3012a36da9e36763fba83f13697",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/pages/HomePage/components/MarkdownViewer.tsx",
+      "sha256": "641ed8ca00220820101d2d3297175cedf0b07129893fc6674452f7543a02cfee",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/pages/HomePage/components/MarkmapComponent.tsx",
+      "sha256": "3d73b1e9abbfc4a9b3441fe7372dcf5155e75a43bfd8bc6ce6c986adbfb29ed0",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/pages/HomePage/components/NoteForm.tsx",
+      "sha256": "c7bec8562305c0a791a9f72e7180f67ab231728f91d6e6a239bebfd1d67660c7",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/pages/HomePage/components/NoteFormWrapper.tsx",
+      "sha256": "310a5f3dc5de9ce6bccaa016192928712c955c40508c7b5c57d66f4ee781f901",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/pages/HomePage/components/NoteHistory.tsx",
+      "sha256": "ccb77f9f71f888269ec7082b83fa2402b6d06cee0a095511652d0e5376b927a1",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/pages/HomePage/components/StepBar.tsx",
+      "sha256": "52a0387de8b10849a2a46537384aab80bf77bf1a6ab0b4bb34844deec7f1b730",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/pages/HomePage/components/VideoBanner.tsx",
+      "sha256": "37b1f4561801950909722c16cedf5bffca97fe0f63a4b68ff400b9a40f708396",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/pages/HomePage/components/transcriptViewer.tsx",
+      "sha256": "2dca7fadeb6c3f878a9541d380283ae88bee0beec5e03a72a34231227ec0095e",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/pages/Index.tsx",
+      "sha256": "16a99978ed9d72348c86ae428e235cb67cf3568e7ca0629431a8139b4b4a2f6a",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/pages/NotFoundPage/index.tsx",
+      "sha256": "819f26dfcb4f1f196675e6c78bc372ff0bfc17ce1405ad8b8f3454e176caf88b",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/pages/Onboarding/index.tsx",
+      "sha256": "38a92daa7f667d1079e953e2d485a934e43e19155da0b10007f059b09ab3a25a",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/pages/SettingPage/Downloader.tsx",
+      "sha256": "40341acfdde47c00de051d46e305664256e84da7c85c49dd6a3aac18e968a5f0",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/pages/SettingPage/Menu.tsx",
+      "sha256": "39973511f8fa1d41a824c6083f34d03c6486dae784d358a7027e2b00672052ad",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/pages/SettingPage/Model.tsx",
+      "sha256": "9509d02ff2bc709f5a7376396505edaa0aabc0663f72da0a3755d383b1da260d",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/pages/SettingPage/Monitor.tsx",
+      "sha256": "a7062670b5e5042ec78f0aca8e261fa87f49df8e0df540c7b9cbe24f23dd86e4",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/pages/SettingPage/Prompt.tsx",
+      "sha256": "fb519a07e7f2b24e591a29e4e3db03bfccea76323078dbff3585f3eedcf212c3",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/pages/SettingPage/about.tsx",
+      "sha256": "7e9f7c983b82f40ce6ba900cc33e3346058e936d1b6e439d1f7de65ce55e2bc0",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/pages/SettingPage/components/index.module.css",
+      "sha256": "8f8b2c90dcaeb30bc5dad59324042f922cbbd518e5bcf270552fa3f50ab7ef8e",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/pages/SettingPage/components/menuBar.tsx",
+      "sha256": "fc0c1b70211b7d66a5a9e6313a467f5fe1c20e74d588cf9b58658853d5b209ad",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/pages/SettingPage/index.tsx",
+      "sha256": "f7dd9759e1b47b67ba8f3e873a65df5a09b15f7b734f4ed8665aa795b2612f49",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/pages/SettingPage/transcriber.tsx",
+      "sha256": "a14ab9a8f28766f4bf75aefc2752487083e1e8673719f9ef45760220684f3f55",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/purposeConversationSession.ts",
+      "sha256": "83cb65b887fc3d75fc0054c88aab05ff59fe3af618e08ad6279bf38f81c9ac7f",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/savedContentLink.test.mjs",
+      "sha256": "12ea8c1e1ddff07eed68a64b9ad2747d7c2e329a5bc1869b0b76ae5fd2dd7268",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/savedContentLink.ts",
+      "sha256": "c24636e4673809bcaae248473ab718378480307946df59bf75bc8e5262181ed2",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/savedSources.ts",
+      "sha256": "bf6d70f6607f3f1648270c5f143e33c112fbe4accd9eb44760de5658da563aaf",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/services/chat.ts",
+      "sha256": "2ddab257d252a671c889f16672ff48756df8a304f0068bb9c888b40444357080",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/services/downloader.ts",
+      "sha256": "8ca93fb19fd12ccc74ff4fa0697895b114b6b4d725f134fd144f0df4bec9831a",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/services/model.ts",
+      "sha256": "51efa7830751573cacb4a082bf6d793f472762a2dfc4a54e31b4eed4a08b56bf",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/services/note.ts",
+      "sha256": "fe97775254545d37ffea67d93dee054c0c5cb6b812d1dbece81a6c39535ed097",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/services/proxy.ts",
+      "sha256": "c140fd05ec8545a969eca3999cc51b1951263b39f80edd379d10fb3ae04104b8",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/services/system.ts",
+      "sha256": "d0a73d135c6b8e07e574ab1e8d66d1b1d0e41437d658d6bdeae7a05380f97f7d",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/services/transcriber.ts",
+      "sha256": "b74f4013daabb99e91135a337a605e008adfd1093117edab834c16f8c6648958",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/services/upload.ts",
+      "sha256": "eaa0a9563b9f8dda30e427981fec6ac453b82ae0597e3cc96024be008b2f7f28",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/sourceReferenceModel.ts",
+      "sha256": "f66e76d9b22c4a9bd4b038ce5b202e6282d0293781f20ee951380dc8864b6309",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/store/chatStore/index.ts",
+      "sha256": "bead206cdb58ccb75461b3e87c503bde3ed01bddf5ba9ef51ea4a54bcf5c854b",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/store/configStore/index.ts",
+      "sha256": "68346d00cd7bd35d1a069f595d9164a554f9cf8c4a8538dc0b29ac72fb0315c4",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/store/modelStore/index.ts",
+      "sha256": "8e3395fa391f07e1de40a9dfcbef32bf8609aefe74eb2b62e9b315d2e7ddc0ce",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/store/providerStore/index.ts",
+      "sha256": "82541d5a6cb9c0b0ed87b2db7df6b90099f33c6ced044a2ec7d49cb50b303238",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/store/taskStore/index.ts",
+      "sha256": "d7a3472b1a55109943981dccbca03696afaa9881dfe0afeb46e9887630a61f64",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/types/index.d.ts",
+      "sha256": "60d9e21519e85cc765c6b2c6b91e62bdec25089e86e66c3ce332c020ca35ccb3",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/utils/index.ts",
+      "sha256": "17a1042bb98dee1244c319f3619e4077273f38373fd37f6486c20a9ef14fe020",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/utils/request.ts",
+      "sha256": "e1a28918884cd20863387517cdaa403b698086e671ce9f6a98161fb24dc717e5",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/src/vite-env.d.ts",
+      "sha256": "3ba8a753721994a78c1933a870bfc144db8b0781bcc967eb821c0ac5730b4a27",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/tailwind.config.cjs",
+      "sha256": "02e11b5b1688ca72ec901f29ec4951a17b60ebfce71275005f926b423ce74ee3",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/tsconfig.app.json",
+      "sha256": "3a79d11f60f487839d1f4c2b9ed23ae637257d53b7a237b3be98eba569f0e393",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/tsconfig.json",
+      "sha256": "53360ec9dd7f4c539d3223a1bd8f4f2cb6f5c748cb024155ba973dbfe6828468",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/tsconfig.node.json",
+      "sha256": "9bf16b3df7247f6a466517b622ecee891ccecf01cb6167637ce62e29ea38a3e9",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/vite.config.ts",
+      "sha256": "5e7b110e6f36315a8b5ac8de1eb71f970f5cc8a50a9ec8d629ad9f737f9a0f1d",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/BillNote_frontend/vite.purpose.config.ts",
+      "sha256": "98b531ac42b89560361b915087d723c1b84aaea89e5b134a24661d434189f8c6",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/LICENSE",
+      "sha256": "62d7e3b60e4b03fa1dd034fa60ba8854e17d6c80ab3cd06bf84204028c2322b9",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/__init__.py",
+      "sha256": "b993d5f3d6bb69f281eb143cab94568be019b5b9604a83286e514bb458968715",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/core/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/db/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/db/builtin_providers.json",
+      "sha256": "c004e875281cc3d81df7168066a1827ca4aa8eba468c4b03b75e143cd7b4f3ed",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/db/engine.py",
+      "sha256": "d3b950faa5fe88c701ffa887e634acdba91c506229855e65fc8ee44f0d6122f8",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/db/init_db.py",
+      "sha256": "fd46a61ebc098166333f84c1ee6b1b48b2d3a287c9e8add7052974cef2a48ede",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/db/model_dao.py",
+      "sha256": "9b0f1164bb2bcadb09d2f1307bd4888755735a04dfbb1462a9397997b4960ee1",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/db/models/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/db/models/models.py",
+      "sha256": "6b437222e0aabb416a5a7e52dd8da5877ca0cac40164b03893788925713fa723",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/db/models/providers.py",
+      "sha256": "d5fa7c3f3f5dd61cce94c45a539f93a52e7bc22912f49ffea831cbcb5266bf82",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/db/models/video_tasks.py",
+      "sha256": "257ba26dbf687e33dd7dbcd29659e9b5973520dc573f17de13d00eb8aeaf40cb",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/db/provider_dao.py",
+      "sha256": "5144ac4f46f82af92933cdf3c22909324b4167b3083e920438ce4e48f6134ff6",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/db/sqlite_client.py",
+      "sha256": "f88540187e09b62c9ec52acdb8b4f05a1985cb3a8cb13cd768b02aae3a64df78",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/db/video_task_dao.py",
+      "sha256": "bbf7423d0d6b83b193f09bd8d3f4b2c90e269c009d9f996a62b584c3677f56c5",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/decorators/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/decorators/timeit.py",
+      "sha256": "a5c630bd2e3021e24e3f4d81fa346bdb0fe928fce841f8de22be1a400d7024f0",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/downloaders/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/downloaders/base.py",
+      "sha256": "7774d57bce0b69c04c76f62adddabb4bbce762d537b06c15ee4662b6c845b0aa",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/downloaders/bilibili_dm_patch.py",
+      "sha256": "e7b0f680334c483db5ce6d2b4887095f316fb119495ff4762b82ee93bc644ba4",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/downloaders/bilibili_downloader.py",
+      "sha256": "ebda2d75c472c65b2c4ab049d16f9ee840cee03f269cd323045c6817ae7e8fca",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/downloaders/bilibili_subtitle.py",
+      "sha256": "1eef12d30594b8412f8b3d771fa2ca28cbac1e03587ce932dad20f09bd93e456",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/downloaders/common.py",
+      "sha256": "47642a0dba2533cb10d0f00724484046322d9d0a11e475557be6ed7a146ec1d1",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/downloaders/douyin_downloader.py",
+      "sha256": "42fe6b1554b22d8811da8ceca307a731a97f96f311d795e067d8658c42f733b5",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/downloaders/douyin_helper/abogus.py",
+      "sha256": "4542389077b0e6141ae043084ac00d487151b79cec05b6027795566787b9e12c",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/downloaders/kuaishou_downloader.py",
+      "sha256": "63594e1cdcdd0d57eb127076455137b50afdd38abc295adc80204aa06e9d0e14",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/downloaders/kuaishou_helper/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/downloaders/kuaishou_helper/kuaishou.py",
+      "sha256": "f15ff2232441a3158944ef17f91f32a60735ff1addbb617caab9cd7960e39826",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/downloaders/local_downloader.py",
+      "sha256": "a86dc8625eecc624e4b5b953055e553853255010a199f8cdc9f03e5988934c64",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/downloaders/xiaoyuzhoufm_download.py",
+      "sha256": "cd0d3108cbd62fe5800b23b5c5d57f30809c976fde08a78ac7194958bb567c0e",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/downloaders/youtube_downloader.py",
+      "sha256": "2e48641c9b5d7d089629d4123ada65212fc2ecb730256f1341bd0b5a03fc0325",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/downloaders/youtube_subtitle.py",
+      "sha256": "f1b6cb2dd14f1045feb87477a9ec524a105c85bfd9d04044d367f7b6ec3328c8",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/enmus/exception.py",
+      "sha256": "49ca4955d9f891290e1caaf75385d1f1438ad857322c4d744398f9d29132bea9",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/enmus/note_enums.py",
+      "sha256": "1e266bdf6bf4eca90bbd73afa6182d5318602ed9e7c5c84dec849f058129fa4a",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/enmus/task_status_enums.py",
+      "sha256": "15ad17cdaec5899aaa1966818a633a9f4799bc89513cf94f301acc9449912af3",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/exceptions/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/exceptions/biz_exception.py",
+      "sha256": "65ba90090ae5d563810d582799948f75e23384b55f784f298e6a9e83e0bfd310",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/exceptions/exception_handlers.py",
+      "sha256": "e619789853fe8334dacd70f847a3ef1411793cb2d8f768baaa18f84ec7872463",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/exceptions/note.py",
+      "sha256": "4099e4554b5f6ef6cf02c8f06adc466cb34957f1c3763ceb470b575566898fb2",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/exceptions/provider.py",
+      "sha256": "1ac328866a9e5f895f1b5d977bd084d815bc4b228e81335ad070293aaad2f721",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/gpt/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/gpt/base.py",
+      "sha256": "5d31860a09306852e6eb06511adfdbe62e69fac816a659edce2ba589f97add70",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/gpt/deepseek_gpt.py",
+      "sha256": "7ca107ca2f17e29711cbc04d26b65578b1434e9a04ffc3a06d8db8fa07a1c0c6",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/gpt/gpt_factory.py",
+      "sha256": "0439557c122ebfe69b905ad3c050f4b0fab712dcf4c3eff5a5652b3483138d43",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/gpt/openai_gpt.py",
+      "sha256": "6ad185b17a00bbaf79447e271b0f2e06221fabdc967df660904401513278c10c",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/gpt/prompt.py",
+      "sha256": "361622b0a66dfe604d65a2fee528569381a419a1ff763ae19e035d61a50a74cb",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/gpt/prompt_builder.py",
+      "sha256": "4b3f5f4c5ce52be0dd32bad88a793fee06639f756870d530e1f20eeec9ceec14",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/gpt/provider/OpenAI_compatible_provider.py",
+      "sha256": "891ac20e5b9908023f8741f83f2c5e3dc56c26ee65dcf9fa6072a989152239c9",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/gpt/qwen_gpt.py",
+      "sha256": "3265e9b8a3a355463929330f5d44e6c845d7e3aa3d2aa1d3651db20c716ea61c",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/gpt/request_chunker.py",
+      "sha256": "f576632c9dc023b625444c433c24a7b7045b7d1d58c531399f7ee9b8521dab9a",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/gpt/test.py",
+      "sha256": "667466c6d226880bf36cf3781f979707225da3184c41b4c49a57b6f5d62c5cc2",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/gpt/tools.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/gpt/universal_gpt.py",
+      "sha256": "2d892fe0140378b3d9a4d4e02ff202213c6e3384382febfac49c73df2493312c",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/gpt/utils.py",
+      "sha256": "45df74dc9d22dc3080a733bb45f38d7ea50d16d07b2d8233aab2e117c4b9ec7a",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/models/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/models/audio_model.py",
+      "sha256": "37d4648189a9c260da065213977ef7c0293a508c6e82a4f92cef12ae0d38d0d2",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/models/gpt_model.py",
+      "sha256": "5e64a9af597970a63bebaa0c20b4532e7529e40f31b88ee8b31ac855c4eaaea5",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/models/model_config.py",
+      "sha256": "576e76312f302e55ec631632cd44f0ffb32fb2e84af61712eeb85688fc960094",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/models/notes_model.py",
+      "sha256": "8c6c45558795c363acec531cfd8f5b2a6cad566616bfc482c67a55971b35fa1c",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/models/provide_model.py",
+      "sha256": "bb6616a7264d5fdccf97cfd683d7323b6e460d45af2cfaf3a4d359f5fd02617a",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/models/transcriber_model.py",
+      "sha256": "ef54f151972a6a0be2d6c3009a1b0a8d414887458feeb89a2bc9b0835c9b84dd",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/models/video_record.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/routers/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/routers/chat.py",
+      "sha256": "f01327e9c85b458c799c3627849e70bb8b94c04b9f82d73ba9157708defdcfad",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/routers/config.py",
+      "sha256": "131cfd5fa6f15a39c5bcce3df5454c4bef6769644588f378c002b0431f997345",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/routers/model.py",
+      "sha256": "9226440821c0a5639a3ccc4e1b507f2e3ecae4183cb13e2aac975c13a83a01fc",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/routers/note.py",
+      "sha256": "2cf5dcc9262a3167c12ca7a5f440f60d824aeb4be19c01d0a4c574fcd73a955f",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/routers/provider.py",
+      "sha256": "5183c3d1dbd68eb4bba0c968baa4413684f9fc3c87b1203d128cbd3bda3dec17",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/services/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/services/chat_service.py",
+      "sha256": "5fa5897397bed4bb5dd6da537dccfa3b6b8985efa002e234ac3b1aae8fd9ffd1",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/services/chat_tools.py",
+      "sha256": "89cd09877e6ea99b3603aca8b5c0302c3f0fd55c765b4d490364c6cc4cb7566d",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/services/constant.py",
+      "sha256": "d8a63580682d726efd1796e0a10bd9bbb3732e192a1968ac1f4d74f59aba9910",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/services/cookie_manager.py",
+      "sha256": "2a4212d0a7db52b30222886bc45aa2b9e1ea32533520e112eda9947f35678e76",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/services/model.py",
+      "sha256": "94ba37aaf39558bee95359b383e4b12b11ec292e3acdab67609115c2acb66555",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/services/model_fallback.py",
+      "sha256": "73c26e7f5c910d459ef6d1667caec214952becd4770b6d48417966b9db5ac997",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/services/note.py",
+      "sha256": "7d1f20407cec9d91473e7e02a03fb73088976733f131c0ca6efd7bc0b7a95a26",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/services/provider.py",
+      "sha256": "c3b06941099e1ead20d2d54ff8c079d942174f72173487ea50027cfd43de6912",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/services/proxy_config_manager.py",
+      "sha256": "52e35e998c3836c494cbbb0048031da4d6c160f802f1d43826bf6455b75a7adb",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/services/task_serial_executor.py",
+      "sha256": "5c8a7aec67ff76365e92837aab3dacb82e96d41d3610391a3577affca3e820c0",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/services/transcriber_config_manager.py",
+      "sha256": "f68a9cbd01ff60349f6d6a587613e933ac6748baf2fe4ea03204578a620dc47c",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/services/vector_store.py",
+      "sha256": "2af6ad03484da12aa98dd6e90279fa1a42eaf0d08e34dd3c9e260da8e1555895",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/transcriber/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/transcriber/base.py",
+      "sha256": "bf037870c5781f774b771a2713066c8af7bb85b136d3ca5265c2ee846f223229",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/transcriber/bcut.py",
+      "sha256": "e35158ce308d47cfd3464088c18b597a7bc3f2706ded5e060535a0ab9bce16f5",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/transcriber/groq.py",
+      "sha256": "d1e75fea7bb2d785bcdaab6afb96eb48affe01bfabe4699dd1c33e4e6c641b77",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/transcriber/kuaishou.py",
+      "sha256": "b541c1d0c15bd06077df93cdd41f368718c0d5dd0194fcca251982cc4a3882c0",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/transcriber/mlx_whisper_transcriber.py",
+      "sha256": "354e8c042ee544dcbdc41ecc98210937e5998f1a3295eb369b36fa17543dce53",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/transcriber/model_download_state.py",
+      "sha256": "766c23fbd562dcf9e973ce7169c3920fa6e8e2dc301a68c3578f5eca62607acf",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/transcriber/transcriber_provider.py",
+      "sha256": "0b80429fc1dbf14d913d8ebc70f550ef2305dfe3fe263f61b143a17ee1c40f65",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/transcriber/whisper.py",
+      "sha256": "9900d322f5d1ce098ff1238a50da61297105fad66a939ac11d5088d1c14d7891",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/transcriber/whisper_models.py",
+      "sha256": "5f5aac146fc2a5a84de7da87dc928c4870bbbac174a25c8ef32c662f1dac96af",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/utils/env_checker.py",
+      "sha256": "006a4145b33c65951be0969e7b4662d089f9c47e1ae8a46a20ac58fbbe1ee696",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/utils/export.py",
+      "sha256": "251bd50d9357cc078006b0305172fa813bbf43e210f5e62a1fdb74091cd8c1f4",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/utils/logger.py",
+      "sha256": "98beb3878e16efd624bc559e68d8abf9f4436d0bd7361347a0b78ca8daf2275c",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/utils/note_helper.py",
+      "sha256": "45998943dd9684ed8fae5e08ac2548140a3a2b736b7a2c0ce9b260cbf73b7c91",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/utils/openai_client.py",
+      "sha256": "4774e81f63a32d987e139a992852dbdb6a3a5ed75966bde0bdcb85e31b037a04",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/utils/path_helper.py",
+      "sha256": "6dd80c8b913d909e972b8ad8f79fa519277ecfc4136b62785f587347d6b9e41b",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/utils/response.py",
+      "sha256": "d06be0556f9a1f7d18fb1fe6df3cac01cfff529f971cb07d8657e2d4698891b3",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/utils/screenshot_marker.py",
+      "sha256": "bd878bceabaf84cf3a6fe739cf8b215c996bcd49fb24951291689d51323b10a5",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/utils/status_code.py",
+      "sha256": "2229e575a08b24791554e0ea02a6f5ea1f0a2c4ff4a8b1c86999d43e1360320b",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/utils/url_parser.py",
+      "sha256": "b9bd0e67dc0b5a1f289f167820fa3e05b684092c49c819b45da776458c3941aa",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/utils/video_helper.py",
+      "sha256": "e12ca7268e4c93c0d238938ca6f801083d50b1a321b961e1ea202ebc4df092dc",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/utils/video_reader.py",
+      "sha256": "e86cb716a815aa3de18b806752989042b6c0e9bc90ebc206b8b60dae1710236f",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/validators/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/app/validators/video_url_validator.py",
+      "sha256": "2a5921377167e8406c0ea8226bbf2e73aa248cc18576f0aa6a6548199cc4f209",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/BiliNote/backend/requirements.txt",
+      "sha256": "bb8b88b53e0b6419ac707e461b4c19828841ea9fe70def209fcbbae6b7db0941",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "DOWN/bridge_contract.py",
+      "sha256": "f9dae20b267b4e90e1d073ef6ba71d42df3d16801758f8a4d8260a7d2c8dc00d",
+      "source_group": "DOWN"
+    },
+    {
+      "relativepath": "MAIN/Start-VideoAssistant.cmd",
+      "sha256": "7113145b59f0865032d791bf914d89ba280637e3f12c563fefcc05f3bae5d253",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/alembic/env.py",
+      "sha256": "f7f61ca3f7f647b1487d92d857c2f4e28ee218335fbc1d64b89e497a912c6c9b",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/alembic/versions/0001_task_runtime.py",
+      "sha256": "d9636f14017ff121a7b1b557b3750605e31cd24cf13aaa2d1b2256dfe5f7d219",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/alembic/versions/0002_source_reads.py",
+      "sha256": "644fc1cba6c675e88be6376b0cdb339dd4abe1cc2996ccb60aa690d68bf82c1c",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/alembic/versions/0003_goal_formation.py",
+      "sha256": "6d46753ec4ce2b4b0855107fcacf665edb6d29d50ef8136a02ecf9000ee9d594",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/alembic/versions/0004_work_kinds.py",
+      "sha256": "eceda79c141cdd7a1f5b5c62dde93a6c565d8e09ed6984513aafcbf5c4b0ee5d",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/alembic/versions/0005_source_operation_retirement.py",
+      "sha256": "527996e2f3747ddfeccecc6c35d32d158d7f58a8eb04030603e8958e7f0849c2",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/alembic/versions/0006_source_admission.py",
+      "sha256": "0b2062509afc03650551d33e041c93b2a71928745bf0a14616615a38e179b0b9",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/alembic/versions/0007_source_attempts.py",
+      "sha256": "3f1ac274349e620be85219c1ff11980920a3276f07abf040c7b8f453a356e168",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/alembic/versions/0008_source_exit.py",
+      "sha256": "30b6d8691c1bdfff56ed184fce7976ca88dfb3e398e779c0478b833795e10a05",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/alembic/versions/0009_artifact_candidates.py",
+      "sha256": "2e84ce712b55156b261d909572468b3c37f5833eecaa4595dfdcbc2772781328",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/alembic/versions/0010_artifact_review_candidates.py",
+      "sha256": "ce703bc707c9e7989d0327439e64a22faa0fa6c473f1747839f5cfb9202027df",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/alembic/versions/0011_audio_transcription.py",
+      "sha256": "69d015a819eb7c8ae031d7557858dc5f76dffebebfe1c1df67420f2a2adee1ba",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/docs/default-processing.md",
+      "sha256": "cbf03da024505ebfbabe4ad807898ce0b513ae3a5d71f987f12b5cae654746e4",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/docs/version-delivery-contract.md",
+      "sha256": "ef0fbad7cd26d842f4a62249b3dbecec8a68c591d2666e165003fe0dac6a83b3",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/pyproject.toml",
+      "sha256": "629f8b5c724fb4033e86903c2d101bb92755a32040e01618825c6faf13d0bcc1",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/scripts/artifact_preview.py",
+      "sha256": "0f1de54739ccaf8cc272eb9986dc38426ae07ea1db8cfc7f2f7ffc2b4bc81897",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/scripts/asr_onnx.py",
+      "sha256": "17b56da175e8f646b2ddda8aa21968d58e514b91dbbc056746f98481737ca58c",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/scripts/asr_transcribe.py",
+      "sha256": "f17c612c67ff338f995320a0fb279e4d09d7a9426113f7f1a3ff13af6d313907",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/scripts/audio_source_probe.py",
+      "sha256": "b4dc4231b0885fe9b7b401abd1d52f877c8e94cd2f8e44e907d429a01992841c",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/scripts/audio_source_session.py",
+      "sha256": "b7d9264321bdd40f2688234b170ba03915b870abe8c09b476212b715c76694fa",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/scripts/content_intake.py",
+      "sha256": "d164922997f45ba969c2ab3f46754c65c052af83e6c478f7e6b7a66bf5d32097",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/scripts/local-check.ps1",
+      "sha256": "daa31f9c42d2cf0b4c06f10a29cdeb65a875f641d653b06bdad2f5d241750b7d",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/scripts/local-db.ps1",
+      "sha256": "1d6054ab34547c46fcac91b0731024f262d536a0c3c1ae2b34504ffb0d2c6e5f",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/scripts/local-env.ps1",
+      "sha256": "9193c2fd6d7a1710572f4545f4e8932e30e8df2fcedea6097a17e5b36942c2eb",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/scripts/notes_run.py",
+      "sha256": "c375a28b56186f50355ff50d49e4d9cb4fc6b0d604a6d8db4e79891312f36729",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/scripts/open-illustrated-notes.ps1",
+      "sha256": "ad6201b79f7106dd0bfee76809766992f71c769fc8644e2c8b89f7df3e12952c",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/scripts/open-link-native-notes.ps1",
+      "sha256": "5251bda681acfb382c17ed6508a632e18c3f40c6a2054df0696601185dbaa377",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/scripts/open-native-notes.ps1",
+      "sha256": "feae92bec847083e1223d6f202238446564d96cffdeaf631be79f422727ef0e5",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/scripts/open-video-assistant.ps1",
+      "sha256": "6b0ecb8c3bbb6fe5936b5f7d42455f326ca7a32016ed3efbb9aa530cc6ae1a2e",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/scripts/open-video-notes.ps1",
+      "sha256": "2cac0c9afd6c761e1765f6a5ab14d811457b141b3c8ebbad19c4d18c0db99023",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/scripts/prepare_source_archive.py",
+      "sha256": "fded6eb925cd6bf0f07650a4f20df39080f8a8f2f4d93263e121ebedbea7a2ea",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/scripts/product_audio_run.py",
+      "sha256": "6d798072ad4780d5b56abaf4ae4f0673dda273f7f0fd91f5de067c4be0c6d452",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/scripts/product_review.py",
+      "sha256": "a9d8708d428c7696c592ed473fb8999f19d692761c3488bdd550186191757506",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/scripts/product_run.py",
+      "sha256": "0d1494960e1d30526e92eb709a976eecd56e37cc95723685b6125f9cab049bc9",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/scripts/product_ui.py",
+      "sha256": "a124c1927a028a3584b69cfb2794d23205b7dd4bfaf146c774a76251844491d8",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/scripts/product_worker.py",
+      "sha256": "ccee9dfea3ad23068bac5b721593a8fd8dfc0c08e647326fbff12a97119057b9",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/scripts/source_smoke.py",
+      "sha256": "51b084f9cbcc3e9a92c6a90d0c50d8fae2dd6a7ebe813c0a61438d3590fecfc0",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/src/video_action_agent/__init__.py",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/src/video_action_agent/api.py",
+      "sha256": "ed3909ff5d3010391336606824660f0b33e8d4773855f023b3d2e82340a4c0cf",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/src/video_action_agent/artifact_builder.py",
+      "sha256": "ad4d05d3f8cb00387394bded45d1b4e8266dd6af4712099c433a6f479847aa30",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/src/video_action_agent/artifact_quality.py",
+      "sha256": "406faae2f029516be321a2877b0c91064f315466e8b2e6f03b28633e5321af7e",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/src/video_action_agent/artifact_revision.py",
+      "sha256": "42fd413a61733dc131141a59ae40cf16397616cd9a177567ef4274e012e922c5",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/src/video_action_agent/asr_worker_resources.py",
+      "sha256": "e80ee05f89e8285a4d80fb36e1c27b32958f604cfd73a843ca97a13a512a6f11",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/src/video_action_agent/audio_session.py",
+      "sha256": "e0d604a5c5a72b72e888b58e8d60d8aca8dc4be11ab9c08e981fc78fd002c57d",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/src/video_action_agent/audio_source.py",
+      "sha256": "4e794c499abe8c018aea16d33f0bde6eec016ca972ef8df86cfa0dbd6ba66fb2",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/src/video_action_agent/browser_session.py",
+      "sha256": "7a6f5e9b0180a5877ab205f89a4fbfa03b69f07be885864ee414a04ae8399fc3",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/src/video_action_agent/content_intake.py",
+      "sha256": "5568680eaeab1e317f0431ebd2a3bfa2260568413046265e87819397fd767edc",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/src/video_action_agent/deepseek_provider.py",
+      "sha256": "f7927e1e126050bc1a63f022d1995bc2bdf05a1002a88651fa14609e60ea9957",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/src/video_action_agent/formation_handler.py",
+      "sha256": "e7b8c30c6d3bfd397cd5c829c89527520d1bc42e4cbf2cadddffb3f247badb95",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/src/video_action_agent/local_flow.py",
+      "sha256": "0cc5edcea4b0edba80a6f123b21965ab6e53142d132dd64e7251c7049c11ca88",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/src/video_action_agent/local_job_store.py",
+      "sha256": "96b7393c49cd4c91117a1cec4cdd4b2b17219ac83db6649f842f2c8a06b2bf2d",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/src/video_action_agent/local_transcriber.py",
+      "sha256": "6384f56e2799d676792a520128d65cf083293e898dc2ef2e8d147c81df1d2bcb",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/src/video_action_agent/local_ui_app.py",
+      "sha256": "2bd9126a6acad9ac07543d2c34245e6d61573bb7f2f81702461d59ce4818b7df",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/src/video_action_agent/method_source_review.py",
+      "sha256": "263e81e5a1e607df754d0abbf06b68a397377354791b0785429f941ca5b1a484",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/src/video_action_agent/models.py",
+      "sha256": "bc909c52dac2ee1d9132b5c564b66c156bfc581a1095352c563c358f2777ad5c",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/src/video_action_agent/notes_builder.py",
+      "sha256": "b8cad900cfe1054218b31d3ce0abf6246b73792f70c13f7b31731b5e3ae32dab",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/src/video_action_agent/notes_checks.py",
+      "sha256": "74ac0e8b0761e78ff65656b16ef29a6d33a4ea0725d14cf42135e623587a023c",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/src/video_action_agent/notes_requirements.py",
+      "sha256": "7e011db77d18a0f5c597992c94fd9d36d1b2bbc9159c318bfe17e9dcf6bb0b9a",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/src/video_action_agent/notes_service.py",
+      "sha256": "d7184e9e888b22fa30af8cc2d630dd62853ce03647d26643ac4c34da5ac7aa59",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/src/video_action_agent/onnx_profile.py",
+      "sha256": "6a823c33391e73d7f76622ab544ad15d59fa3f143b47e06de2e4e63e223fe755",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/src/video_action_agent/onnx_transcriber.py",
+      "sha256": "0f84af5a04dcb48e1df93efeb11c7379cb84225d5c73daffc83e7c567f3d2bf1",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/src/video_action_agent/processing_observations.py",
+      "sha256": "819af661be7c98ffbd0058d651f61987fa9f0664a03cc53b23ba9cae5388961e",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/src/video_action_agent/product_pipeline.py",
+      "sha256": "b0458ca825c20c5f382bf353981048744b28355a46ae911a3a4c08819e8ed008",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/src/video_action_agent/product_worker.py",
+      "sha256": "694ea0cc74da4fac50a6ab5d5dce80427fe1ad4b51eda944aa0f1f782816314b",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/src/video_action_agent/recorded_source.py",
+      "sha256": "9222a2d3bb46c855801952412b5da979fecebe48375dcffdc2be8487edf93496",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/src/video_action_agent/runtime.py",
+      "sha256": "4c568611d941e17acd10769305d9168ef5e8eb1a742d7f4d077151ce70cf0dbf",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/src/video_action_agent/saved_reference.py",
+      "sha256": "e593bbe3db5d748f0c216ce641362a22dc3abd10d24ae426449b6baeafe638a9",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/src/video_action_agent/source_access.py",
+      "sha256": "0b15ab608370238cd982680e0c8d6979c890aa7fbaced99479e38f673ab47e06",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/src/video_action_agent/source_answer_builder.py",
+      "sha256": "59c9fbffbd8b0cba0fdd12d79bc485f08d515c1b20ee0c02628960cf78e3f9c5",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/src/video_action_agent/source_candidate_bundle.py",
+      "sha256": "aa6e054f632160fd41e2772188de908c46d357ad96a6b57a74c86f4d1f5da125",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/src/video_action_agent/source_capture.py",
+      "sha256": "314fbd56538784cca4bba0b7952a04d4cad5463b181f9723c7658f76b6e65664",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/src/video_action_agent/source_preview.py",
+      "sha256": "84ea7b73952c6aca80f2f3dfaa0262c54246090c29e5a88e1a74c8694786042b",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/src/video_action_agent/source_runtime.py",
+      "sha256": "b62fdd8cf8fd61c491eb6770bc3de5741a9fca3364d1542163518df1e9ebce6a",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/src/video_action_agent/source_worker.py",
+      "sha256": "747d85572e3dfc22cbe683b5cd3ba4f3ee1a163a4bf1cd46214b20392438a314",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/src/video_action_agent/task_skills.py",
+      "sha256": "2e81d4980da62cd2c4060f94404de70efb1cae92dc50d309e5604b5140bb51e4",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/src/video_action_agent/task_skills/learning-notes/NOTICE.md",
+      "sha256": "8c4a05b52977fca99aca179369056b3d13dfd71b18211bc1473f50e134c81063",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/src/video_action_agent/task_skills/learning-notes/SKILL.md",
+      "sha256": "3de57fcd4bf18d3cf613f0581c56b2cbf0a967e6f39f9e83a0722393485ec3bd",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/src/video_action_agent/task_skills/operational-material/SKILL.md",
+      "sha256": "37a9e2dac71be2d89aef067b6747b5f9ff126af45c70581ce04d6fbdec703f9b",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/src/video_action_agent/task_skills/source-answer/NOTICE.md",
+      "sha256": "611a0a5dd1f4ed62937735f1c0d1eb16b50068bc7dfeabe94a46d71c14521540",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/src/video_action_agent/task_skills/source-answer/SKILL.md",
+      "sha256": "ccba398dc1dad23b236e4e3aad9f07433ec78b6be0293746e2a6819e9a7c24b6",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/src/video_action_agent/transcribed_source.py",
+      "sha256": "cf21bd9d24f91ee17f7d253bdfc0f1b3b9a721e8f4def3c10fce18ff9668b4e1",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/src/video_action_agent/ui_processing.py",
+      "sha256": "df47e5929ea3966c9879359d1f32bf75c34864e1f67f89101ddb04a03df2c263",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/src/video_action_agent/web/app.js",
+      "sha256": "b7b6b43f9b12dfc8fdac7fb6be3496131c3aff63c966c22ddd5db43801dd0527",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/src/video_action_agent/web/index.html",
+      "sha256": "5190dc6a8811d10dde47823107824251f7517039ff838d28ac126dbff9b6b915",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/src/video_action_agent/web/link_flow.js",
+      "sha256": "54b0f3e2cd1db0f2a7b5f1429171415e8d1ace74e084df0ab88378790714d9d8",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/src/video_action_agent/web/notes.js",
+      "sha256": "12e134749e885552572783b29b297e9df4134700b0d83a33c7a476a3e601fef2",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/src/video_action_agent/web/notes_checks.js",
+      "sha256": "5e6fc6983ffba3e4b57a9a03934d962f4cfa8a0d06eb3d12e74f3f8592f4a025",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/src/video_action_agent/web/reference.js",
+      "sha256": "373a6552957c43e06377217a4ef981fbe3626eeb2aa79be0bc919c7a29b94938",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/src/video_action_agent/web/style.css",
+      "sha256": "b4dd12a5e38d0a83a6da082be8b6fe032289889024be57bb9480f8d610d8bef2",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/src/video_action_agent/worker.py",
+      "sha256": "596d8ce076c3697390059dd4b64e887a731b8c9dc44de9bb8edd46c39f5a3daa",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/src/video_action_agent/zhipu_provider.py",
+      "sha256": "8b644d92caabceed6bfc0ed3f8fec2034921e119d95c0a18f88ece7bcc4c6fb6",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/tests/conftest.py",
+      "sha256": "fb0c6a9780a8b087c22eac3d8ed7fc3af78a07f947017cd53e64af286c882237",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/tests/test_answer_checks_integration.py",
+      "sha256": "1eb9e19310bedd4fa07bed15e6a7e72e24991c11d070fde5834756e2b7ef2249",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/tests/test_api.py",
+      "sha256": "cce55baaf1415b311e5d8b3a92134a5b36f4bae01104edfd416515fc9fc863d7",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/tests/test_artifact_builder.py",
+      "sha256": "7034e50e3ea6c90ac435280225d7e939aecdf539022410a4fd5091aa90483d19",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/tests/test_artifact_quality.py",
+      "sha256": "9451ca1a4071025843e9b783964f6e7f269e3aa3090c3a1965133133b67f025a",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/tests/test_artifact_revision_service.py",
+      "sha256": "b856c0f545fd70df49db6a5debf35fa78bb004e10b104ce383ff7f9099a9c7ab",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/tests/test_artifact_runtime.py",
+      "sha256": "e5018bebf69c4dacc617d17e2b8c6636ec9b827a51cb90d3380cbe0e8c96ef39",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/tests/test_asr_artifact_context.py",
+      "sha256": "d88c97d17e1914738f2863e7d3a46658081c0e97bc6110991402ffe662b8cd75",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/tests/test_asr_formal_source.py",
+      "sha256": "392297eca25c19d10cf1f18fc8816b845940b079b3e2243ad1d54214db2e530a",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/tests/test_asr_product_pipeline.py",
+      "sha256": "ee4965a34c521460b8eb9d641030b1774e1dce6cbf829fbe360019813ac2ef17",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/tests/test_audio_session.py",
+      "sha256": "15af47728276d72edb54835dd02492b4b66174bbd4cf2b534b6dbc5afe00db35",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/tests/test_audio_source.py",
+      "sha256": "c4551cd67fc83250c441ff2f3f5857eb2d6ba17f92908cbce97dc5693e938df3",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/tests/test_browser_session.py",
+      "sha256": "88833f598959758dcded1a8130097f97e17e14c3a2b05e7bf14c25b2f8b9fe8d",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/tests/test_claim_snapshot.py",
+      "sha256": "568126116afc4fbd9b67dfa6ba21be4db441d4eaddbcd63e7d232249090f984b",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/tests/test_content_intake.py",
+      "sha256": "5da5db2abeec778ea58bf02b1d36e97d025783de1558e4c468431ed2daa24bb4",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/tests/test_fixed_reference.py",
+      "sha256": "c8d09dbb28a9f57facd0e5fe040c78e1e74eed7cf78766987d4b5d31b39104f9",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/tests/test_formation_handler.py",
+      "sha256": "a230266a43ecb17093742818d5d47ae58f700268613356f2acdbee16e85ea5ec",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/tests/test_local_flow.py",
+      "sha256": "81656ca9186de0c2adaf448e763f1bdb356419c814891b7df023fc6ccdeae49a",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/tests/test_local_job_store.py",
+      "sha256": "8cf42b238510b3760c2a850d5f6257b5aa09fd75e9020cba292615110c63dd1a",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/tests/test_local_transcriber.py",
+      "sha256": "0f0bf5428eb64b1107f0a8907bdec516776961123abf2684586c1f7128d32768",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/tests/test_local_ui.py",
+      "sha256": "1f153d526f4b045247773c90b48ae2656b1040afe5de0bfdbcda9aaf40c35df4",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/tests/test_master_methods.py",
+      "sha256": "cfdd88c12cf58dcb6d7d2a28ab1c035eb76e6742e20e88e143fd575a50189e80",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/tests/test_method_checks_integration.py",
+      "sha256": "dc2e9cc63b7f8f1d73b8358a2a3cf2353e2d30adf667712b39b5cdaf25085a7e",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/tests/test_method_source_review.py",
+      "sha256": "0bbc3a60559aff3220aab2417ae9d09eb77958bc1c517a2784058914c248e1bf",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/tests/test_notes_builder.py",
+      "sha256": "bd14cadd9d60246b91e25abd5e501d5b830df076d7a769320bc941b00ae70c64",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/tests/test_notes_checks.py",
+      "sha256": "197aedf89595a8ea3da96be8036ef43d271724f901895749ffb71f2b49b3f278",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/tests/test_notes_layout.py",
+      "sha256": "99de1090cffa60611b1147962e0fde3de1a1314741b28bafc5123704d8f087eb",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/tests/test_notes_requirements.py",
+      "sha256": "ad6b773ea28704d22a4b4c02c18e118762df472b1363a8c9758e4633aa4b2c3d",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/tests/test_notes_service.py",
+      "sha256": "3a4174f9a5abbb624f1a71634e7ae115acb51b1c0876242b6196218ccd9ffaf0",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/tests/test_onnx_transcriber.py",
+      "sha256": "9df33f6cba86d270769536d6cf2ae54bc87382f6e27e9df66f5bfdd625234f6b",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/tests/test_prepare_source_archive.py",
+      "sha256": "2d46c64628a4794bc96f22435d4b135c7ffd40c80cfa4caed9dcc5ef751c03c1",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/tests/test_process_and_migration.py",
+      "sha256": "88bbe5dd3964dccceeccd0d97821e6b00a5726b49c52136f959bad9f26bbc24b",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/tests/test_processing_visibility.py",
+      "sha256": "32e157034e65a569db5c12183e9faa579858864b7d81ee1516beea7d545db3c7",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/tests/test_product_pipeline.py",
+      "sha256": "fe46c6a463c1078c2f07f42f7dc807a2c1a148380d08cf520a110fcc63e9ef82",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/tests/test_product_worker.py",
+      "sha256": "06fefd133e712768af471854685383b9e6f48abc6a71b24a4ac7766b3b78b8ee",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/tests/test_recorded_source.py",
+      "sha256": "5ee514d5bb865b318c2153245d85082fe6141db3356c7658e038db88825d9ad5",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/tests/test_runtime.py",
+      "sha256": "bf04f24a3ed77dc1264170905367b0d9811e5c4ce2dcfb82f9154afcf655042b",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/tests/test_self_service.py",
+      "sha256": "98519d42573af680982d7854d0bff2e8c1ea31337b683372580de178093b9d9d",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/tests/test_source_access.py",
+      "sha256": "db0bd14d8f8323ff73e015b1b4ba1e50d4e0ccdbd57401b9fa91344d3682de41",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/tests/test_source_answer_builder.py",
+      "sha256": "8bfbfd61c968a6697ec7806573e922a3bbe4b900532c19412030ad78f986c6cb",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/tests/test_source_answer_service.py",
+      "sha256": "1c6c6c6a9354193a887d82daeaa11e706161361a1c2023844d5f8d22031ffce7",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/tests/test_source_candidate_bundle.py",
+      "sha256": "d4659947e48d40869ca265ba89ec54881511bace1aa25c4bf0eb581d2e8c1925",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/tests/test_source_capture.py",
+      "sha256": "f1195b0a59bc3cb2aeb92642d6ca65f2f4798cbe360720719035078cb6179cc3",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/tests/test_source_exit.py",
+      "sha256": "556960c38766d7bfdf18d6afdfe81bf9764f2378a13f94834b17875b8a938775",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/tests/test_source_preview.py",
+      "sha256": "2ec581838704b7282f219509bd0a973289d2141817b36d95fe8acae1063325e1",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/tests/test_source_runtime.py",
+      "sha256": "0014c15000e0ae0a9d88e335299ef18ed18a0325402f1b96d43652165525e975",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/tests/test_task_skills.py",
+      "sha256": "461c3882b1996d82d4e2169e7bcab9c81a9f189117ad90eace02e91443b0ba87",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/tests/test_ui_processing.py",
+      "sha256": "2c7628be6bdd61f5488c41025090e89bc85ab5d76a404b07f6fc2c53ce40219f",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/tests/test_zhipu_provider.py",
+      "sha256": "66c1b2b8cc91b1930f2f7979039e82f7ef9878771ac2cb1e6bc385dff0c6303f",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/tests/test_zhipu_transport.py",
+      "sha256": "b7a3a32e16101a1c72cf296e304ae362f043c858ccea39fb0e28fee1e5701f7b",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/tests/worker_crash_probe.py",
+      "sha256": "c6c345626e29ea238dada565560ca8d89cbffb8781b5213bb57bd40cac22cfb8",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "MAIN/uv.lock",
+      "sha256": "03684655b91d2c1f704403ebdb9b12d92c78a2ab1ca3e8570cc18d071213c945",
+      "source_group": "MAIN"
+    },
+    {
+      "relativepath": "README.md",
+      "sha256": "137cb1981ff02e5de74644bc3a3dba310b67ddda26c399441e6d6b0f3a880243",
+      "source_group": "RELEASE"
+    },
+    {
+      "relativepath": "VIS/cached_capture.py",
+      "sha256": "8dc3ff9f48c11b4d5296979ad0c733c80c203cdb16696172b3acd4f56462fb3c",
+      "source_group": "VIS"
+    },
+    {
+      "relativepath": "VIS/frame_capture.py",
+      "sha256": "044473716e8b8923c293615cb9792ae7a0f450e7a44d1a7f60b027ba8e5dae31",
+      "source_group": "VIS"
+    },
+    {
+      "relativepath": "VIS/frame_text_runtime.py",
+      "sha256": "b622fc1cbc13771949891ee73dc24ee21c56b1567231873c4201ea66f287dc7f",
+      "source_group": "VIS"
+    },
+    {
+      "relativepath": "VIS/frame_text_worker.py",
+      "sha256": "4d20f8c8509122da28928a8d7bdf63c385ad6d8a9b7d977bca083aa48129a334",
+      "source_group": "VIS"
+    },
+    {
+      "relativepath": "VIS/frame_worker.py",
+      "sha256": "29c5bfdd80faabd3068b22ffc0ece1ce740fdef5f79c4c4c061a915024b8d93a",
+      "source_group": "VIS"
+    },
+    {
+      "relativepath": "VIS/native_engine.py",
+      "sha256": "599a6c79049c84883b8f8a5ad1920f5148e4b1e93793ed550daf33214cb51e41",
+      "source_group": "VIS"
+    },
+    {
+      "relativepath": "VIS/native_notes.py",
+      "sha256": "7fbaa5115e889493e365269156c72e9145a83e08db0715fb2f727957382ab3c7",
+      "source_group": "VIS"
+    },
+    {
+      "relativepath": "VIS/purpose_prompt.py",
+      "sha256": "b235b76a3fc29b5baa6f3c43801e2fc89f5afadb3789ae62268d57a7811087a4",
+      "source_group": "VIS"
+    },
+    {
+      "relativepath": "VIS/test_cached_capture.py",
+      "sha256": "2d072018f01e367346b50d4902a7bd792e30a33461c885f050b43048fa85b7f1",
+      "source_group": "VIS"
+    },
+    {
+      "relativepath": "VIS/test_frame_capture.py",
+      "sha256": "1d454193028f8e34a888da37ec0eeefdb8d689cbd81d91d0dd5f5f7a2522c5d4",
+      "source_group": "VIS"
+    },
+    {
+      "relativepath": "VIS/test_visual_pipeline.py",
+      "sha256": "ed8eef1547c549b329c66d803f987848ca91d5a935d8abfae460c99af547645a",
+      "source_group": "VIS"
+    },
+    {
+      "relativepath": "VIS/vision_context.py",
+      "sha256": "31f257c9521210913f5cc52f1e1268cd7e0e9890d53befeeb1020f1f89de6f61",
+      "source_group": "VIS"
+    },
+    {
+      "relativepath": "VIS/vision_pipeline.py",
+      "sha256": "9cd4943739b19fbaaa812f90dccbf31eb7532fe1ada748229dc698f24133ad74",
+      "source_group": "VIS"
+    },
+    {
+      "relativepath": "VIS/vision_policy.py",
+      "sha256": "e43b6322418a40af92322f65abfeccd8b8a670436493194ee4dbccaaf1772686",
+      "source_group": "VIS"
+    },
+    {
+      "relativepath": "VIS/visual_grounding.py",
+      "sha256": "a1e689d1bbbf890d618af6c8d3c7877c1b8ca72b95ff1ac784d1dcb6493d6142",
+      "source_group": "VIS"
+    },
+    {
+      "relativepath": "VIS/visual_text_context.py",
+      "sha256": "f7f47a767a6a513119d458ac2113abd2fe3a472428659533c0d784bbe642e689",
+      "source_group": "VIS"
+    }
+  ],
+  "third_party_license_presence": {
+    "APP": false,
+    "DOWN": true,
+    "MAIN": false,
+    "VIS": false
+  },
+  "archive_kind": "development_source_snapshot_not_verified_clone_and_run",
+  "upstream_bilinote_commit": "90940fde4d224d0f69ad99674f4af0a1ea52d3c4",
+  "project_license_grant_added": false
+}

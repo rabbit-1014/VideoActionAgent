@@ -1,0 +1,202 @@
+.vaa-app {
+  --vaa-ink: #1f2937;
+  --vaa-muted: #64748b;
+  --vaa-line: #dbe3ec;
+  --vaa-surface: #ffffff;
+  --vaa-canvas: #f4f6f9;
+  --vaa-blue: #2563eb;
+  --vaa-blue-dark: #1d4ed8;
+  --vaa-focus: #f59e0b;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  padding: 20px clamp(12px, 2vw, 28px) 32px;
+  color: var(--vaa-ink);
+  background: var(--vaa-canvas);
+  font: 15px/1.55 system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+.vaa-app *,
+.vaa-app *::before,
+.vaa-app *::after { box-sizing: inherit; }
+
+.vaa-app :where(button, input, textarea, select, summary, a):focus-visible {
+  outline: 3px solid var(--vaa-focus);
+  outline-offset: 2px;
+}
+
+.vaa-app .vaa-topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  max-width: 1440px;
+  margin: 0 auto 18px;
+  padding: 2px 2px 14px;
+  border-bottom: 1px solid var(--vaa-line);
+}
+.vaa-app .vaa-brand { margin: 0; font-size: 22px; line-height: 1.25; font-weight: 700; letter-spacing: -.02em; }
+.vaa-app .vaa-subtitle { margin: 4px 0 0; color: var(--vaa-muted); font-size: 13px; }
+.vaa-app .vaa-connection { flex: 0 0 auto; color: var(--vaa-muted); font-size: 13px; }
+
+.vaa-app .vaa-layout {
+  display: grid;
+  grid-template-columns: minmax(240px, 270px) minmax(0, 1fr);
+  align-items: start;
+  gap: 20px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.vaa-app .vaa-sidebar,
+.vaa-app .vaa-card,
+.vaa-app .vaa-result,
+.vaa-app .vaa-empty {
+  min-width: 0;
+  border: 1px solid var(--vaa-line);
+  border-radius: 10px;
+  background: var(--vaa-surface);
+}
+.vaa-app .vaa-sidebar { position: sticky; top: 16px; max-height: calc(100vh - 32px); overflow: auto; padding: 16px 12px; }
+.vaa-app .vaa-source-options { display: grid; gap: 8px; max-height: 290px; overflow-y: auto; padding: 3px; }
+.vaa-app .vaa-source-option { display: grid; gap: 4px; width: 100%; min-width: 0; padding: 12px; text-align: left; color: var(--vaa-ink); background: var(--vaa-surface); border: 1px solid var(--vaa-line); border-radius: 7px; overflow-wrap: anywhere; }
+.vaa-app .vaa-source-option span { color: var(--vaa-muted); font-size: 13px; }
+.vaa-app .vaa-source-option.is-selected { border-color: var(--vaa-blue); background: #eff6ff; }
+.vaa-app .vaa-source-selected { margin-top: 12px; padding: 12px; border: 1px solid var(--vaa-line); border-radius: 7px; overflow-wrap: anywhere; }
+.vaa-app .vaa-source-selected p { margin: 5px 0; }
+.vaa-app .vaa-source-selected a { color: var(--vaa-blue); text-decoration: underline; }
+.vaa-app .vaa-source-records { margin-top: 10px; }
+.vaa-app .vaa-sidebar-heading { margin: 0 4px 12px; font-size: 14px; font-weight: 700; }
+.vaa-app .vaa-history-list { display: grid; gap: 6px; margin: 0; padding: 0; list-style: none; }
+.vaa-app .vaa-saved-search { display: block; margin: 0 4px 12px; }
+.vaa-app .vaa-saved-search input { width: 100%; min-width: 0; border: 1px solid var(--vaa-line); border-radius: 7px; padding: 8px; font-size: 12px; background: #fff; color: var(--vaa-ink); }
+.vaa-app .vaa-history-item {
+  display: block;
+  width: 100%;
+  min-width: 0;
+  padding: 10px;
+  border: 1px solid transparent;
+  border-radius: 7px;
+  color: inherit;
+  background: transparent;
+  text-align: left;
+  cursor: pointer;
+}
+.vaa-app .vaa-history-item:hover { background: #f6f8fb; }
+.vaa-app .vaa-history-item.is-selected { border-color: #bfdbfe; background: #eff6ff; }
+.vaa-app .vaa-history-title { display: -webkit-box; overflow: hidden; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow-wrap: anywhere; font-size: 13px; line-height: 1.4; font-weight: 600; }
+.vaa-app .vaa-history-meta { display: block; margin-top: 5px; color: var(--vaa-muted); font-size: 11px; }
+.vaa-app .vaa-sidebar-empty { margin: 0; padding: 8px 4px; color: var(--vaa-muted); font-size: 13px; }
+.vaa-app .vaa-main { display: grid; gap: 16px; min-width: 0; }
+.vaa-app .vaa-card { padding: clamp(16px, 2vw, 24px); }
+.vaa-app .vaa-composer-title { margin: 0 0 16px; font-size: 18px; line-height: 1.35; }
+.vaa-app .vaa-form-section { display: grid; gap: 14px; min-width: 0; }
+.vaa-app .vaa-field-row { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+.vaa-app .vaa-field { display: grid; gap: 6px; min-width: 0; color: #334155; font-size: 13px; font-weight: 600; }
+.vaa-app :where(.vaa-field input:not([type="checkbox"]):not([type="radio"]), .vaa-field textarea, .vaa-field select) {
+  width: 100%; min-width: 0; padding: 10px 11px; border: 1px solid #cbd5e1; border-radius: 6px;
+  color: var(--vaa-ink); background: #fff; font: inherit; font-size: 14px;
+}
+.vaa-app .vaa-field textarea { min-height: 108px; resize: vertical; }
+.vaa-app .vaa-field input::placeholder,
+.vaa-app .vaa-field textarea::placeholder { color: #94a3b8; }
+.vaa-app .vaa-choice-row { display: flex; flex-wrap: wrap; align-items: flex-start; gap: 8px 18px; }
+.vaa-app .vaa-choice-row label,
+.vaa-app .vaa-consent { display: flex; align-items: flex-start; gap: 8px; min-width: 0; color: #334155; font-size: 13px; }
+.vaa-app :where(.vaa-choice-row input, .vaa-consent input) { flex: 0 0 auto; width: 16px; height: 16px; margin: 3px 0 0; accent-color: var(--vaa-blue); }
+.vaa-app div.vaa-consent { display: grid; }
+.vaa-app .vaa-consent > label { display: flex; align-items: flex-start; gap: 8px; }
+.vaa-app .vaa-composer form,
+.vaa-app .vaa-editor form { display: grid; gap: 20px; }
+.vaa-app .vaa-composer-title .vaa-hint { display: block; margin: 5px 0 0; font-weight: 400; }
+.vaa-app .vaa-sidebar-heading { display: flex; align-items: center; justify-content: space-between; margin-top: 18px; }
+.vaa-app .vaa-consent { padding: 10px 12px; border: 1px solid var(--vaa-line); border-radius: 7px; background: #f8fafc; }
+.vaa-app .vaa-optional { color: var(--vaa-muted); font-size: 12px; font-weight: 400; }
+.vaa-app .vaa-hint { margin: -6px 0 0; color: var(--vaa-muted); font-size: 12px; }
+.vaa-app .vaa-actions,
+.vaa-app .vaa-result-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 9px; }
+.vaa-app :where(.vaa-primary, .vaa-secondary) { min-height: 40px; padding: 8px 14px; border: 1px solid transparent; border-radius: 6px; font: inherit; font-size: 14px; font-weight: 600; cursor: pointer; }
+.vaa-app .vaa-primary { color: #fff; background: var(--vaa-blue); }
+.vaa-app .vaa-primary:hover:not(:disabled) { background: var(--vaa-blue-dark); }
+.vaa-app .vaa-primary:disabled { opacity: .55; cursor: not-allowed; }
+.vaa-app .vaa-secondary { border-color: #cbd5e1; color: #334155; background: #fff; }
+.vaa-app .vaa-secondary:hover:not(:disabled) { background: #f8fafc; }
+.vaa-app .vaa-message { padding: 11px 13px; border: 1px solid #bfdbfe; border-radius: 7px; color: #1e3a8a; background: #eff6ff; font-size: 13px; overflow-wrap: anywhere; }
+.vaa-app .vaa-message.is-error { border-color: #fecaca; color: #991b1b; background: #fef2f2; }
+.vaa-app .vaa-message.is-warning { border-color: #fde68a; color: #854d0e; background: #fffbeb; }
+.vaa-app .vaa-activity { color: #334155; font-size: 13px; }
+.vaa-app .vaa-record { display: grid; gap: 10px; padding: 12px; border: 1px solid var(--vaa-line); border-radius: 7px; background: #f8fafc; }
+.vaa-app .vaa-result { padding: clamp(16px, 2vw, 24px); overflow: hidden; }
+.vaa-app .vaa-result-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 14px; margin-bottom: 16px; }
+.vaa-app .vaa-result-head > :first-child { min-width: 0; }
+.vaa-app .vaa-empty { padding: 22px; color: var(--vaa-muted); text-align: center; }
+.vaa-app .vaa-editor { min-width: 0; }
+.vaa-app .vaa-purpose-reader { min-width: 0; overflow-wrap: anywhere; word-break: break-word; }
+.vaa-app .vaa-reading-workspace { display: grid; grid-template-columns: minmax(0, 1fr); align-items: start; gap: 20px; }
+.vaa-app .vaa-reading-workspace.is-chat-open { grid-template-columns: minmax(0, 1fr) minmax(320px, 38%); }
+.vaa-app .vaa-reading-column { min-width: 0; }
+.vaa-app .vaa-reading-workspace.is-chat-full { grid-template-columns: minmax(0, 1fr); }
+.vaa-app .vaa-reading-workspace.is-chat-full .vaa-reading-column { display: none; }
+.vaa-app .vaa-conversation { position: sticky; top: 16px; height: min(760px, calc(100dvh - 40px)); min-height: 400px; min-width: 0; border: 1px solid var(--vaa-line); border-radius: 8px; background: #fff; overflow: hidden; }
+.vaa-app .vaa-conversation[hidden] { display: none; }
+.vaa-app .vaa-chat-view { border-left: 0; }
+.vaa-app .vaa-chat-controls { font-size: 12px; line-height: 1.5; color: var(--vaa-muted); }
+.vaa-app .vaa-chat-controls > * { margin-bottom: 8px; }
+.vaa-app .vaa-chat-permission { display: flex; align-items: start; gap: 7px; }
+.vaa-app .vaa-chat-permission input { margin-top: 3px; flex: 0 0 auto; accent-color: var(--vaa-blue); }
+.vaa-app .vaa-chat-error { color: #991b1b; }
+.vaa-app .vaa-chat-open { padding: 2px 0; color: #1d4ed8; font-size: 12px; text-decoration: underline; text-underline-offset: 3px; }
+.vaa-app .vaa-conversation .markdown-body { font-size: 14px; line-height: 1.65; overflow-wrap: anywhere; }
+.vaa-app .vaa-conversation .markdown-body :where(pre, table) { max-width: 100%; overflow-x: auto; }
+@media (max-width: 1180px) {
+  .vaa-app .vaa-reading-workspace.is-chat-open { grid-template-columns: minmax(0, 1fr); }
+  .vaa-app .vaa-conversation { position: static; height: min(680px, 85dvh); }
+}
+.vaa-app .vaa-purpose-reader :where(p, li, blockquote, pre, code, a) { overflow-wrap: anywhere; }
+.vaa-app .vaa-purpose-reader pre { max-width: 100%; overflow: auto; white-space: pre-wrap; }
+.vaa-app .vaa-purpose-reader :where(table) { display: block; width: 100%; max-width: 100%; overflow-x: auto; border-collapse: collapse; }
+.vaa-app .vaa-purpose-reader :where(th, td) { padding: 7px 9px; border: 1px solid var(--vaa-line); text-align: left; vertical-align: top; }
+.vaa-app .vaa-purpose-reader :where(img, video, iframe) { max-width: 100%; height: auto; }
+
+
+@media (max-width: 760px) {
+  .vaa-app { padding: 12px 12px 24px; }
+  .vaa-app .vaa-topbar { align-items: flex-start; gap: 8px 14px; }
+  .vaa-app .vaa-layout { grid-template-columns: minmax(0, 1fr); gap: 12px; }
+  .vaa-app .vaa-sidebar { position: static; max-height: 220px; padding: 11px 12px; }
+  .vaa-app .vaa-sidebar-heading { margin-bottom: 7px; }
+  .vaa-app .vaa-history-list { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 5px; }
+  .vaa-app .vaa-history-item { padding: 8px; }
+}
+
+@media (max-width: 480px) {
+  .vaa-app { padding: 10px 9px 20px; font-size: 14px; }
+  .vaa-app .vaa-topbar { display: grid; gap: 4px; margin-bottom: 12px; padding-bottom: 10px; }
+  .vaa-app .vaa-brand { font-size: 19px; }
+  .vaa-app .vaa-connection { font-size: 12px; }
+  .vaa-app .vaa-history-list { grid-template-columns: minmax(0, 1fr); }
+  .vaa-app .vaa-field-row { grid-template-columns: minmax(0, 1fr); }
+  .vaa-app .vaa-result-head { display: grid; }
+  .vaa-app .vaa-result-actions { width: 100%; }
+  .vaa-app :where(.vaa-primary, .vaa-secondary) { max-width: 100%; }
+}
+.vaa-app .vaa-composer { min-width: 0; }
+.vaa-app .vaa-number { display: inline-grid; place-items: center; width: 22px; height: 22px; border-radius: 50%; color: #1d4ed8; background: #dbeafe; font-size: 12px; font-weight: 700; }
+.vaa-app details > summary { cursor: pointer; }
+
+
+.vaa-app .vaa-reference { margin-top: 20px; border-top: 1px solid var(--vaa-line); padding-top: 14px; }
+.vaa-app .vaa-reference > summary { font-size: 14px; font-weight: 600; }
+.vaa-app .vaa-reference > .vaa-hint { margin: 12px 0; }
+.vaa-app .vaa-reference-search { display: grid; grid-template-columns: minmax(110px, 140px) minmax(0, 1fr); gap: 12px; margin: 14px 0; }
+.vaa-app .vaa-reference-passage, .vaa-app .vaa-reference-transcript { padding: 0; margin: 14px 0; list-style: none; border: 1px solid var(--vaa-line); border-radius: 7px; overflow: hidden; }
+.vaa-app .vaa-reference-row { padding: 12px 14px; border-bottom: 1px solid var(--vaa-line); overflow-wrap: anywhere; }
+.vaa-app .vaa-reference-row:last-child { border-bottom: 0; }
+.vaa-app .vaa-reference-row.is-match { border-left: 3px solid var(--vaa-blue); background: #eff6ff; }
+.vaa-app .vaa-reference-time { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; color: var(--vaa-muted); font-size: 12px; }
+.vaa-app .vaa-reference-time a { color: #1d4ed8; text-decoration: underline; text-underline-offset: 3px; }
+.vaa-app .vaa-reference-match { color: #1d4ed8; }
+.vaa-app .vaa-reference-row p { margin: 6px 0 0; white-space: pre-wrap; font-size: 14px; line-height: 1.7; }
+.vaa-app .vaa-reference-all { margin-top: 14px; }
+.vaa-app .vaa-reference-transcript { max-height: 480px; overflow-y: auto; }
+@media (max-width: 480px) { .vaa-app .vaa-reference-search { grid-template-columns: minmax(0, 1fr); } }

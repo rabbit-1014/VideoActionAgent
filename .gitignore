@@ -1,0 +1,26 @@
+# Personal runtime and build outputs are never source deliverables.
+**/runtime/
+**/.local/
+**/tmp/
+**/.venv/
+**/venv/
+**/node_modules/
+**/dist/
+**/__pycache__/
+**/.pytest_cache/
+**/.ruff_cache/
+**/.env
+**/.env.*
+*.log
+*.db
+*.sqlite
+*.sqlite3
+*.wav
+*.mp3
+*.m4a
+*.mp4
+*.webm
+*.onnx
+*.pt
+*.pth
+*.safetensors
